@@ -1,0 +1,358 @@
+@font-face {
+    font-family: 'genshin-font';
+    src: url('genshin-impact-font/genshin.ttf')  format('truetype');
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'genshin-font', Fallback, sans-serif;
+}
+
+h2{
+    font-size: 250%;
+}
+
+h3{
+    font-size: 200%;
+}
+
+header{
+    background-color: #1D2226;
+    list-style-type: none;
+    width: 100%;
+    height: auto;
+    font-weight: bold;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header img{
+    filter: invert(1);
+    width: 17%;
+    height: fit-content;
+    margin: 30px;
+    margin-top: 20px;
+}
+
+nav{
+    margin: 25px;
+    width: 83%;
+}
+
+header ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+.lien {
+    color: #EFF6E0;
+    font-size: 1.6em;
+    text-decoration: none;
+}
+
+
+
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!   DESCRIPTION   !!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+.description-img{
+    width: 100%;
+    filter: brightness(100%);
+}
+
+.img-sumeru{
+    width: 100%;
+    filter: brightness(75%);
+}
+
+.description-para{
+    color: white;
+    font-size: 180%;
+    font-weight: 400;
+    width: 28%;
+    position: absolute;
+    top: 0%; left: 0%;
+    margin: 6.5%;
+    margin-left: 9%;
+}
+
+
+
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!   PERSONNAGES   !!!!!!!!!!!!!!!!!!!!!! */
+.personnages{
+    background-color: rgb(92, 30, 19);
+    color: white;
+    margin-top: -5px;
+}
+
+.personnages p{
+    font-size: larger;
+    margin: 50px;
+    margin-top: 0;
+}
+
+.grand-titre-ancre{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    padding-top: 80px;
+}
+
+.grand-titre-ancre h2{
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.les-personnages img{
+    filter: invert(1);
+}
+
+.fond-perso{
+    width: 100%;
+}
+
+.devant-hu-tao{
+    position: absolute;
+    top: 1600px;
+    width: 100%;
+}
+
+.bord-perso-retour{
+    transform: scaleX(-1);
+}
+
+.titre-perso{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+
+.titre-perso h3{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.image-hu-tao img{
+    position: absolute;
+    top: 200px;
+    width: 700px;
+    height: fit-content;
+}
+
+.devant-hu-tao p{
+    line-height: 32px;
+    width: 37%;
+    margin-top: 6%;
+    margin-left: 47%;
+}
+
+.chibi-hu-tao img{
+    position: absolute;
+    top: 620px;
+    left: 1350px;
+    width: 20%;
+}
+
+.devant-kazuha{
+    position: absolute;
+    top: 2560px;
+    width: 100%;
+}
+
+.image-kazuha img{
+    position: absolute;
+    top: 210px;
+    left: 54%;
+    width: 750px;
+    height: fit-content;
+}
+
+.devant-kazuha p{
+    line-height: 32px;
+    width: 30%;
+    margin-top: 5%;
+    margin-left: 20%;
+}
+
+.chibi-kazuha img{
+    position: absolute;
+    top: 0;
+    left: -50px;
+    width: 18%;
+}
+
+.devant-raiden{
+    position: absolute;
+    top: 3500px;
+    width: 100%;
+}
+
+.image-raiden img{
+    position: absolute;
+    top: 120px;
+    left: 0%;
+    width: 750px;
+    height: fit-content;
+}
+
+.devant-raiden p{
+    line-height: 32px;
+    width: 50%;
+    margin-top: 3%;
+    margin-left: 45%;
+}
+
+.chibi-raiden img{
+    position: absolute;
+    top: 720px;
+    left: 1390px;
+    width: 10%;
+}
+
+.devant-venti{
+    position: absolute;
+    top: 4480px;
+    width: 100%;
+}
+
+.image-venti img{
+    position: absolute;
+    top: 150px;
+    left: 550px;
+    width: 1400px;
+    height: fit-content;
+}
+
+.devant-venti p{
+    line-height: 32px;
+    text-align: center;
+    width: 20%;
+    margin-top: 5%;
+    margin-left: 25%;
+}
+
+.chibi-venti img{
+    position: absolute;
+    top: 520px;
+    left: 50px;
+    width: 18%;
+}
+
+.regions{
+    background-color: rgb(81, 145, 139);
+}
+
+.regions p{
+    font-size: 135%;
+}
+
+.img-mond img, .img-liyue img, .img-inazuma img, .img-sumeru img{
+    width: 100%;
+}
+
+.para-grand-titre{
+    font-size: 110%;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 60px;
+}
+
+.titre-region{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titre-region img{
+    height: fit-content;
+}
+
+.titre-region h3{
+    margin: 20px;
+}
+
+.mon{
+    position: absolute;
+    top: 5800px;
+    left: 32%;
+}
+
+.mondstadt p{
+    background-color: rgba(0, 99, 180, 0.4);
+    padding: 10px;
+    position: absolute;
+    top: 5950px;
+    left: 80px;
+    width: 20%;
+    line-height: 27px;
+    text-align: center;
+}
+
+.liy{
+    position: absolute;
+    top: 6770px;
+    left: 32%;
+}
+
+.liyue p{
+    padding: 10px;
+    position: absolute;
+    top: 6900px;
+    left: 80px;
+    width: 50%;
+    line-height: 27px;
+    text-align: center;
+}
+
+.ina{
+    position: absolute;
+    top: 7760px;
+    left: 32%;
+}
+
+.inazuma p{
+    background-color: rgba(252, 183, 235, 0.5);
+    padding: 10px;
+    position: absolute;
+    top: 8330px;
+    left: 240px;
+    width: 70%;
+    line-height: 27px;
+    text-align: center;
+}
+
+.sum{
+    position: absolute;
+    top: 8560px;
+    left: 32%;
+}
+
+.sumeru p{
+    background-color: rgba(22, 80, 46, 0.7);
+    padding: 10px;
+    position: absolute;
+    top: 9220px;
+    left: 120px;
+    width: 85%;
+    line-height: 27px;
+    text-align: center;
+}
+
+.tel{
+    background-color: black;
+    color: white;
+}
+
+.tel img{
+    filter: invert(1);
+}
