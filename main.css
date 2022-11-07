@@ -4,6 +4,7 @@ body{
     box-sizing: border-box;
     background-color: rgb(253, 237, 251);
     color:#EFF6E0;
+
     display: flex;
     flex-direction: column;
 }
@@ -27,7 +28,7 @@ p{
 header{
     background-color: black;
     list-style-type: none;
-    width: 101.2%;
+    width: 100vw;
     height: auto;
     margin-top: -0.7%;
     margin-left: -0.6%;
@@ -44,6 +45,7 @@ nav{
 
 .liste{
     margin: 25px;
+
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -61,60 +63,61 @@ nav{
                                         /* GRAND TITRE */
 
 .intro{
-    width: 100%;
+    width: 100vw;
+
     display: flex;
     flex-direction: column;
 }
 
 .intro-img{
-    width: 101.2%;
-    margin: -10px;
-    position: absolute;
+    position: relative;
     overflow: hidden;
-    height: 600px;
     width: 100%;
+    height: 600px;
+    margin-right: -1%; margin-left: -1%;
 }
 
 .intro img{
     width: 100%;
-    margin-top: -200px;
+    margin-top: -11.5%;
 }
 
 .grand-titre{
-    font-size: 2em;
+    font-size: 200%;
     position: absolute;
-    top:300px; left: 480px;
+    top: 32%; left: 30%;
     background-color: rgb(255, 255, 255);
     border-radius: 50px;
     height: 80px;
     width: 700px;
     filter: opacity(90%);
+
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .intro-article{
-    margin: 50px;
-    font-size: 1.1em;
+    font-size: 110%;
     color: rgb(0, 0, 0);
-    width: 101.2%;
-    height: 280px;
+    width: 100%;
+    height: 270px;
+    font-weight: bold;
+
     display: flex;
     justify-content: center;
     align-items: center;
     justify-self: center;
     align-self: center;
-    font-weight: bold;
-    margin-top: 35.5%;
-    margin-bottom: -36.5%;
 }
 
 .intro-article p{
-    margin: 50px;
+    width: 90%;
 }
 
-/* GENSHIN */
+
+
+                                /* GENSHIN */
 
 
 .intro-genshin{
@@ -126,7 +129,6 @@ nav{
     display: flex;
     align-items: center;
     flex-direction: column;
-    margin-top: 600px;
 }
 
 .genshin-para-img{
@@ -222,90 +224,6 @@ nav{
 
                                         /* TIKTOK */
 
-
-                                        /* TEST */
-
-.slidershow{
-    width: 250px;
-    height: 500px;
-    overflow: hidden;
-    margin: 25px;
-}
-
-.navigation{
-    position: absolute;
-    bottom: -1100px;
-    left: 14.6%;
-    transform: translate(-86.4%);
-    display: flex;
-    flex-direction: column;
-}
-
-.bar{
-    width: 5px;
-    height: 50px;
-    border: 1px solid #fff;
-    margin: 6px;
-    cursor: pointer;
-    transition: 0.4s;
-}
-
-.bar:hover{
-    background: #fff;
-}
-
-input[name="r"]{
-    position: absolute;
-    visibility: hidden;
-}
-
-.slides{
-    width: 500%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-}
-
-.slide{
-    height: 400px;
-    width: fit-content;
-    transition: 0.6s;
-}
-
-.slide img{
-    width: 100%;
-    height: 100%;
-}
-
-#r1:checked ~ .s1{
-    margin-bottom: 0;
-}
-
-#r2:checked ~ .s1{
-    margin-bottom: -20%;
-}
-
-#r3:checked ~ .s1{
-    margin-top: -40%;
-}
-
-#r4:checked ~ .s1{
-    margin-top: -60%;
-}
-
-
-
-
-
-
-
-
-
-                                    /* FIN DU TEST */
-
-
-
-
 .intro-tiktok{
     background-color: rgb(0, 0, 0);
     display: flex;
@@ -328,17 +246,20 @@ input[name="r"]{
 .tiktok-para{
     display: flex;
     align-self: center;
+
     margin: 20px;
     margin-right: -10px;
     line-height: 27px;
+    width: 48%;
 }
 
 .tiktok-images img{
-    height: 250px;
+    height: 18vh;
     width: fit-content;
 }
 
 .tiktok-images{
     margin: 30px;
     display: flex;
+    flex-wrap: wrap;
 }

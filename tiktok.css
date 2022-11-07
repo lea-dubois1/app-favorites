@@ -32,7 +32,7 @@ header p{
 main{
     display: flex;
     justify-content: center;
-    margin-top: 800px;
+    margin-top: 100vh;
     font-size: 130%;
 }
 
