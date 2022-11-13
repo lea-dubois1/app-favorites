@@ -64,14 +64,14 @@ nav{
     height: fit-content;
     padding: 25px;
     border-radius: 50px;
-    font-size: 21px;
+    font-size: 2vmin;
     font-weight: 700;
     color: white;
     text-align: center;
     margin-left: 100px;
     margin-right: 100px;
     position: absolute;
-    top: 860px;
+    top: 50vmax
 }
 
 .origines{
@@ -89,123 +89,105 @@ nav{
     margin-left: 30px;
 }
 
-.jacinthe img{
-    background-color: rgb(12, 65, 110);
-    width: 100%;
-}
-
-.texte-jacinthe{
-    position: absolute;
-    top: 1755px;
-    margin-right: 490px;
-    margin-left: 490px;
-    font-size: 109.5%;
-    font-weight: 500;
-    text-align: center;
-    color: rgb(39, 12, 0);
-
+.jacinthe{
+    background-image: url(images-webtoon/jacinthe-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 3%;
 }
 
-.texte-jacinthe h3{
+.jacinthe h3{
     font-size: 170%;
     margin-bottom: 0px;
     color: rgb(217, 235, 235);
 }
 
-.texte-jacinthe p{
+.jacinthe p{
     background-color: rgba(12, 65, 110, 0.8);
     color: rgb(255, 255, 255);
+    width: 60vmin;
+    margin-bottom: 1%;
 }
 
-.imperatrice img{
-    background-color: rgb(235, 124, 148);
-    width: 100%;
-}
-
-.texte-imperatrice{
-    position: absolute;
-    top: 2155px;
-    margin-right: 490px;
-    margin-left: 490px;
-    font-size: 109.5%;
-    font-weight: 500;
-    text-align: center;
-
+.imperatrice{
+    background-image: url(images-webtoon/impératrice-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.texte-imperatrice h3{
+.imperatrice h3{
+    margin-top: 3%;
     font-size: 170%;
-    margin-bottom: 15px;
-    color: rgb(58, 18, 8);
+    margin-bottom: 0px;
+    color: rgb(217, 235, 235);
 }
 
-.texte-imperatrice p{
+.imperatrice p{
+    background-color: rgba(109, 98, 72, 0.8);
     color: rgb(255, 255, 255);
+    width: 60vmin;
+    margin-bottom: 3%;
 }
 
-.lecteur img{
-    background-color: rgb(27, 29, 63);
-    width: 100%;
-}
-
-.texte-lecteur{
-    position: absolute;
-    top: 2500px;
-    margin-right: 490px;
-    margin-left: 490px;
-    font-size: 109.5%;
-    font-weight: 500;
-    text-align: center;
-
+.lecteur{
+    background-image: url(images-webtoon/lecteur-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 3%;
 }
 
-.texte-lecteur h3{
+.lecteur h3{
+    margin-top: 4%;
     font-size: 170%;
-    margin-bottom: 40px;
-    color: rgb(255, 231, 225);
+    margin-bottom: 0px;
+    color: rgb(217, 235, 235);
 }
 
-.texte-lecteur p{
+.lecteur p{
+    background-color: rgba(19, 43, 63, 0.8);
     color: rgb(255, 255, 255);
+    width: 60vmin;
+    margin-bottom: 4%;
 }
 
-.voeu img{
-    background-color: rgb(67, 117, 224);
-    width: 100%;
-}
-
-.texte-voeu{
-    position: absolute;
-    top: 2890px;
-    margin-right: 490px;
-    margin-left: 490px;
-    font-size: 109.5%;
-    font-weight: 500;
-    text-align: center;
-
+.voeu{
+    background-image: url(images-webtoon/voeu-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 3%;
 }
 
-.texte-voeu h3{
+.voeu h3{
+    margin-top: 5%;
     font-size: 170%;
-    margin-bottom: 40px;
-    color: rgb(255, 234, 211);
+    margin-bottom: 0px;
+    color: rgb(217, 235, 235);
 }
 
-.texte-voeu p{
+.voeu p{
+    background-color: rgba(73, 116, 132, 0.8);
     color: rgb(255, 255, 255);
+    width: 60vmin;
+    margin-bottom: 5%;
 }
+
+
+
+
+
+
 
 .canvas img{
     width: 50%;
